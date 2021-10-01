@@ -1,0 +1,615 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+    background-color: #ededed;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    /* for removing the highlight */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body,
+body * {
+    border: 0 none;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+:focus {
+    outline: none;
+}
+
+::-moz-focus-inner {
+    border: 0;
+}
+
+
+/*-------------------------------- Content -------------*/
+
+#hiddenEnabler {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+}
+
+#wrapper {
+
+
+    border: 1px solid #000000;
+    width: 1080px;
+    height: 1788px;
+    left: 0px;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    box-sizing: border-box;
+
+
+}
+
+#frame1 {
+    background-image: url('couple.jpg');
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 1150px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+
+#frame2 {
+    background-image: url('text-1.png');
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 706px;
+    top: 444px;
+    left: 0;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* Frame 1 Animation */
+#frame-3_4_5 {
+    background-image: url('bg1.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 15;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+#frame3_copy {
+    position: absolute;
+    background-image: url('text-2.png');
+    background-size: cover;
+    width: 871px;
+    height: 331px;
+    top: 411px;
+    left: 88px;
+    z-index: 2;
+}
+
+#footnote-1 {
+    position: absolute;
+    background-image: url('footnote-1.png');
+    background-size: cover;
+    width: 855px;
+    height: 100px;
+    top: 854px;
+    left: 88px;
+    z-index: 2;
+}
+
+#frame4_copy {
+    position: absolute;
+    background-image: url('text-2a.png');
+    background-size: cover;
+    width: 302px;
+    height: 103px;
+    top: 529px;
+    left: 53px;
+    z-index: 2;
+}
+
+
+#frame5_copy {
+    position: absolute;
+    background-image: url('text-3.png');
+    background-size: cover;
+    width: 939px;
+    height: 678px;
+    top: 348px;
+    left: 84px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+
+/* Frame 3 Animation */
+#TEClogo {
+    position: absolute;
+    width: 450px;
+    height: 142px;
+    top: 60px;
+    right: 50px;
+    z-index: 30;
+
+
+}
+
+#TEClogo img {
+    width: 100%;
+}
+
+#frame6 {
+    position: absolute;
+    background-color: rgba(99, 23, 79, 0.65);
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    opacity: 0;
+visibility: hidden;
+
+}
+
+#frm3_Logo {
+    position: absolute;
+    background: url('logos.png');
+    background-size: cover;
+    width: 604px;
+    height: 691px;
+    top: 100px;
+    left: 210px;
+}
+
+#cta {
+    position: absolute;
+    background: url('cta.jpg');
+    background-size: cover;
+    width: 829px;
+    height: 129px;
+    top: 871px;
+    left: 50%;
+    margin-left: -415px;
+    cursor: pointer;
+    z-index: 50;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+#bannerExit {
+    background: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 40;
+
+}
+
+
+#cta:hover {
+    transform: scale(1.05, 1);
+}
+
+.medwatch-container {
+    position: relative;
+}
+
+#medwatchExit-btn {
+    position: absolute;
+    top: 40px;
+    width: 320px;
+    height: 12px;
+    /*background-color: red;*/
+}
+
+#footerLogo-btn{
+    position: absolute;
+    top: 20px;
+    width: 405px !important;
+    height: 20px;
+    /*background-color: red;*/
+}
+
+#footerLogo {
+    position: relative;
+    width: 100%;
+    margin: 15px 0 25px !important;
+}
+
+#footerLogo > img.logo{
+    width: 405px !important;
+    height: auto;
+}
+
+#footerLogo-btn{
+    position: absolute;
+    top: 20px;
+    width: 405px !important;
+    height: 20px;
+    /*background-color: red;*/
+}
+/*Animation */
+
+
+/* Common Animation */
+
+
+
+
+/*Slide to right ends*/
+/* Frame Specific Animations */
+
+
+
+
+/*-------------------------------- ISI -------------*/
+#isiWrap #scrollbar1 li .coloredText,
+.coloredText {
+    color: #8b4485;
+}
+
+.nonScrollable {
+    padding: 5px 20px;
+    background: #f3f3f3;
+    z-index: 10;
+    position: relative;
+}
+
+#linkToPI,
+#linkToPITwo,
+#linkTovrtx {
+    position: relative;
+    color: #4c246a;
+    z-index: 2;
+}
+
+
+#isiWrap {
+    position: absolute;
+    background-color: #ffffff;
+    height: 638px;
+    right: 0px;
+    left: 0;
+    top: 1148px;
+    width: 100%;
+    z-index: 200;
+
+
+}
+
+#isiWrap h1 {
+    font-size: 30px;
+    color: #812c7a;
+    line-height: 32px;
+
+}
+
+#isiWrap h2 {
+
+    font-size: 30px;
+    color: #84327d;
+    line-height: 32px;
+    margin: 0 0 10px 0;
+
+}
+
+#isiWrap h2 > span {
+    font-weight: 400;
+    color: #000
+
+}
+
+#isiWrap h3 {
+
+    font-size: 30px;
+    color: #84327d;
+    line-height: 32px;
+    margin: 0 0 8px 0;
+}
+
+#isiWrap #scrollbar1 p {
+    margin: 0px 0px 15px 0px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 32px;
+    color: #000000;
+}
+
+#isiWrap #scrollbar1 a {
+    color: #84327d;
+    text-decoration: underline;
+}
+
+#isiWrap #scrollbar1 ul {
+    width: 100%;
+    padding: 0 0 0 30px;
+}
+
+#isiWrap #scrollbar1 ul ul {
+    list-style: circle;
+    padding: 5px 0 0 20px;
+    margin-top: 1em;
+}
+
+
+
+#isiWrap #scrollbar1 li {
+    margin-bottom: 0.5em;
+
+    color: #84327d;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+#isiWrap #scrollbar1 li li {}
+
+#isiWrap #scrollbar1 li span {
+    color: #000000;
+}
+
+#isiWrap #scrollbar1 li span.bld {
+    font-weight: 700;
+    color: #84327d;
+}
+
+#isiWrap #scrollbar1 {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#isiWrap #isi #scrollbar1 #linkToFDA {
+    word-wrap: break-word;
+}
+
+sub {
+    vertical-align: -2px;
+    line-height: 0;
+}
+
+sup {
+    vertical-align: 3px;
+    font-size: 8px;
+}
+
+.no-margin {
+    margin: 0 0 2px 0 !important;
+}
+
+
+/* ISI */
+#isiWrap .firstH2 {
+    margin-top: 20px;
+}
+
+#isi {
+    background: #ffffff;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+#scrollContainer {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0px;
+    transition: .6s ease-out;
+    width: 100%;
+}
+
+#textWrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0 20px;
+}
+
+#textWrapper > .isi-img {
+
+}
+
+#scrollContainer p {
+    display: block;
+    width: 100%;
+}
+
+#scrollMask {
+    height: 100%;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+#scrollBar {
+    background-color: #ffffff;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 17px;
+}
+
+#scrollBar #scrubber {
+    background-color: #c8c8c8;
+    border-radius: 22px;
+    cursor: pointer;
+    height: 40px;
+    left: 4px;
+    position: absolute;
+    top: 0px;
+    width: 8px;
+    z-index: 4998;
+}
+
+
+/* Tiny Scrollbar */
+#scrollbar1 {
+
+    margin-right: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    display: inline-block;
+    opacity: 1;
+    position: relative;
+}
+
+#scrollbar1 .viewport {
+
+    width: 100%;
+    height: 593px;
+   
+    position: absolute;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    font-weight: normal;
+
+}
+.viewport::-webkit-scrollbar{
+  width: 6px;
+}
+
+.viewport::-webkit-scrollbar-track {
+  background-color: #ededed;
+}
+
+.viewport::-webkit-scrollbar-thumb {
+  height: 2px;
+  background-color: #812c7a;
+  background-position: top;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  border-right: 4px solid transparent;  
+  border-radius: 0;
+}
+#scrollbar1 .overview {
+    list-style: none;
+    position: absolute;
+    left: 0px;
+    margin: 0;
+    width: 100%;
+    top: 0;
+}
+
+#scrollbar1 .scrollbar {
+
+    background-position: 0 0;
+    position: absolute;
+    right: 1px;
+    width: 6px;
+    top: 0;
+
+    background-color: #aeaeae;
+    z-index: 20;
+}
+
+#scrollbar1 .track {
+    background: #fff;
+    height: 100%;
+    width: 6px;
+    position: relative;
+    margin-left: 0px;
+    background-color: #aeaeae;
+}
+
+#scrollbar1 .thumb {
+    background: #812c7a;
+    width: 6px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 7px;
+    border-radius: 0px;
+
+}
+
+#gray_line {
+    position: absolute;
+    width: 5px;
+    height: 86px;
+    background: #d9d9d9;
+    display: block;
+    top: 0px;
+    right: 0px;
+
+    opacity: 0;
+
+}
+
+#scrollbar1 .disable {
+    display: none;
+}
+
+.noSelect {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+#isiWrap #scrollbar1 .footerBtn {
+    padding: 10px 0px;
+    height: auto;
+    overflow:hidden;
+}
+
+#isiWrap #scrollbar1 .footerBtn a {
+    display: block;
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;    
+    text-decoration: none;
+    background-color: #d8365a;
+    text-align: center;
+    padding: 15px;
+    width: 482px;
+}
+#footerPIExit{margin-left: 27px;}
+/*ISI arrow placements*/
